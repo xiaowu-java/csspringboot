@@ -6,6 +6,7 @@ public class DemoService {
 
     @RequestMapping("/demo2")
     public String demo2() {
+
         return "HAHAHA";
     }
 }
